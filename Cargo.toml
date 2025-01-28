@@ -1,0 +1,9 @@
+[package]
+name = "sqlx-test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.95"
+sqlx = { version = "0.8.3", features = ["sqlite", "runtime-tokio"] }
+tokio = { version = "1.43.0", features = ["full"] }
