@@ -1,0 +1,5 @@
+-- Add migration script here
+CREATE TABLE IF NOT EXISTS users (
+    id INTEGER PRIMARY KEY NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
